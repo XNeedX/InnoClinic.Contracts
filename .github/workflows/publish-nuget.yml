@@ -11,20 +11,20 @@ jobs:
       contents: read
       packages: write 
 
-    steps:
+   steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '10.0.x' 
-        source-url: https://nuget.pkg.github.com/XNeedX/index.json
+        dotnet-version: '10.0.x'
+        source-url: https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json
       env:
         NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
     - name: Build and Pack
-      run: dotnet pack -c Release -o out
+      run: dotnet pack InnoClinic.Contracts/InnoClinic.Contracts.csproj -c Release -o out
 
     - name: Push to GitHub Packages
       run: dotnet nuget push "out/*.nupkg" --api-key ${{secrets.GITHUB_TOKEN}} --source "github" --skip-duplicate
