@@ -5,9 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>InnoClinic.Contracts</PackageId>
-    <Version>1.0.0</Version> <Authors>NeedXw</Authors>
+    <Version>1.0.1</Version> <Authors>NeedX</Authors>
     <Company>InnoClinic</Company>
     <Description>Shared contracts and events for InnoClinic microservices</Description>
     <RepositoryUrl>https://github.com/XNeedX/InnoClinic.Contracts</RepositoryUrl>
