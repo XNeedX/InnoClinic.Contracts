@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "InnoClinic.Contracts/1.0.2": {
+      "InnoClinic.Contracts/1.0.3": {
         "runtime": {
           "InnoClinic.Contracts.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "InnoClinic.Contracts/1.0.2": {
+    "InnoClinic.Contracts/1.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
