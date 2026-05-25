@@ -4,6 +4,7 @@ namespace InnoClinic.Contracts.Events.Offices;
 
 public interface IOfficeCreatedEvent
 {
+    Guid Guid { get; }
     string? PhotoPath { get; }
     string City { get; }
     string Street { get; }

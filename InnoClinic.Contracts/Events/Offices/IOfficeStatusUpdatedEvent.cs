@@ -4,5 +4,6 @@ namespace InnoClinic.Contracts.Events.Offices;
 
 public interface IOfficeStatusUpdatedEvent
 {
+    Guid Id { get; }
     OfficeStatus Status { get; }
 }
