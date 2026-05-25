@@ -11,5 +11,6 @@ public interface IOfficeUpdatedEvent
     string HouseNumber { get; }
     string? OfficeNumber { get; }
     string RegistryPhoneNumber { get; }
+    string Address { get; }
     OfficeStatus Status { get; }
 }
