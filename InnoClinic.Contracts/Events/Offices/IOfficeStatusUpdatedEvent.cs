@@ -6,4 +6,5 @@ public interface IOfficeStatusUpdatedEvent
 {
     Guid Id { get; }
     OfficeStatus Status { get; }
+    string Address { get; }
 }
