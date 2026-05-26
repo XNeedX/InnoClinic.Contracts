@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>InnoClinic.Contracts</PackageId>
-    <Version>1.0.4</Version> <Authors>NeedX</Authors>
+    <Version>1.0.5</Version> <Authors>NeedX</Authors>
     <Company>InnoClinic</Company>
     <Description>Shared contracts and events for InnoClinic microservices</Description>
     <RepositoryUrl>https://github.com/XNeedX/InnoClinic.Contracts</RepositoryUrl>

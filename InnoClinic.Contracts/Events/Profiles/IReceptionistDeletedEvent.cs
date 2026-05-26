@@ -1,6 +1,6 @@
 ﻿namespace InnoClinic.Contracts.Events.Profiles;
 
-public interface IPatientProfileDeletedEvent
+public interface IReceptionistDeletedEvent
 {
     Guid Id { get; }
 }

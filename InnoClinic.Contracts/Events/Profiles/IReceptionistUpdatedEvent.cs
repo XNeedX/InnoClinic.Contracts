@@ -2,7 +2,7 @@
 
 public interface IReceptionistUpdatedEvent
 {
-    Guid ReceptionistId { get; }
+    Guid Id { get; }
     string FirstName { get; }
     string LastName { get; }
     string? MiddleName { get; }

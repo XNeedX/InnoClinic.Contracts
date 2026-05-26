@@ -2,7 +2,7 @@
 
 public interface IPatientCreatedEvent
 {
-    Guid PatientId { get; }
+    Guid Id { get; }
     string AccountId { get; }
     string FirstName { get; }
     string LastName { get; }

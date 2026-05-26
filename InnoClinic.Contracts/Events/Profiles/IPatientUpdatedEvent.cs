@@ -1,11 +1,12 @@
 ﻿namespace InnoClinic.Contracts.Events.Profiles;
 
-public interface IReceptionistCreatedEvent
+public interface IPatientUpdatedEvent
 {
     Guid Id { get; }
-    string Email { get; }
+    string AccountId { get; }
     string FirstName { get; }
     string LastName { get; }
     string? MiddleName { get; }
-    string OfficeAddress { get; }
+    string PhoneNumber { get; }
+    DateTime DateOfBirth { get; }
 }

@@ -2,6 +2,6 @@
 
 public interface IPatientProfileLinkedEvent
 {
-    Guid PatientId { get; }
+    Guid Id { get; }
     string AccountId { get; }
 }
