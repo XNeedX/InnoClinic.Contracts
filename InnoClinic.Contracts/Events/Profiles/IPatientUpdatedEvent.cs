@@ -8,5 +8,6 @@ public interface IPatientUpdatedEvent
     string LastName { get; }
     string? MiddleName { get; }
     string PhoneNumber { get; }
+    string Email { get; }
     DateTime DateOfBirth { get; }
 }
